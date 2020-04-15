@@ -280,4 +280,10 @@ table tr:nth-child(6) td {
     flex-direction: row;
     float: left;
   }
+
+  #profile_table {
+    width: inherit;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
 }
