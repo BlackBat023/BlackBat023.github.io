@@ -27,7 +27,7 @@
     <body class="container-fluid p-0">
         <header>
             <nav>
-                <div class="nav-wrapper navbar bg-dark navbar-fixed">
+                <div class="nav-wrapper navbar bg-dark fixed-top">
                     <div class="navbar-brand" href="#">
                         <img src="images/avatar.jpg" class="rounded-circle" style="width: 50px; height: 50px;" />
                     </div>
@@ -52,28 +52,36 @@
             </nav>
             <ul class="sidenav fixed-top" id="mobile-demo">
                 <li class="nav-item">
-                    <a href="#" class="nav-link"><h6>Home</h6></a>
+                    <a href="#" class="nav-link">
+                        <h6>Home</h6>
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#blog" class="nav-link"><h6>Blog</h6></a>
+                    <a href="#blog" class="nav-link">
+                        <h6>Blog</h6>
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#skills" class="nav-link"><h6>Skills</h6></a>
+                    <a href="#skills" class="nav-link">
+                        <h6>Skills</h6>
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#contact" class="nav-link"><h6>Contact</h6></a>
+                    <a href="#contact" class="nav-link">
+                        <h6>Contact</h6>
+                    </a>
                 </li>
             </ul>
-            
+
         </header>
         <main>
             <!-- Introduction section -->
             <div class="container-fluid" id="home">
                 <div id="home-container" class="container card grey">
                     <div class="row">
-                        
+
                         <div class="card-photo col-md-6 col-sm-12" id="avatar">
-                            <img class="img responsive-img" src="images/avatar.jpg" alt="my avatar"/>
+                            <img class="img responsive-img" src="images/avatar.jpg" alt="my avatar" />
                         </div>
                         <div class="divider"></div>
                         <div class="content col-md-6 col-sm-12" id="profile">
@@ -84,44 +92,60 @@
                                 <p>
                                     <table>
                                         <tr>
-                                            <td>Name: </td><td>Mauritz Vervaart</td>
+                                            <td>Name: </td>
+                                            <td>Mauritz Vervaart</td>
                                         </tr>
                                         <tr>
-                                            <td>Age: </td><td><?php echo date("Y") - 1978; ?></td>
+                                            <td>Age: </td>
+                                            <td><?php echo date("Y") - 1978; ?></td>
                                         </tr>
                                         <tr>
-                                            <td>Gender: </td><td>Male</td>
+                                            <td>Gender: </td>
+                                            <td>Male</td>
                                         </tr>
                                         <tr>
-                                            <td><i class="material-icons">call</i></td><td>083 233-6184</td>
+                                            <td><i class="material-icons">call</i></td>
+                                            <td>083 233-6184</td>
                                         </tr>
                                         <tr>
-                                            <td><i class="material-icons">mail_outline</i></td><td><a href="#contact">mjver@mweb.co.za</a></td>
+                                            <td><i class="material-icons">mail_outline</i></td>
+                                            <td><a href="#contact">mjver@mweb.co.za</a></td>
                                         </tr>
                                     </table>
                                     <table>
                                         <tr>
                                             <td>
-                                                I started my programming journey in 2016 when looking for 
-                                                for a career change. I have acquired sufficient knowledge 
-                                                through self study & online courses in HTML, CSS, Javascript and PHP as 
-                                                well as other programming languages such as Python, Java and 
-                                                C#. I've worked in retail for most of my life although my 
+                                                I started my programming journey in 2016 when looking for
+                                                for a career change. I have acquired sufficient knowledge
+                                                through self study & online courses in HTML, CSS, Javascript and PHP as
+                                                well as other programming languages such as Python, Java and
+                                                C#. I've worked in retail for most of my life although my
                                                 tertiary education were in network engineering (MCSE + I).
                                             </td>
                                         </tr>
                                     </table>
                                     <table>
                                         <tr id="social">
-                                            <td><img src="https://img.icons8.com/metro/26/000000/linkedin.png"/></td><td><a class="waves-effect waves-blue btn-flat" href="https://www.linkedin.com/in/mjver?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BhTA%2B0CB2TAChXuUfpr8m2A%3D%3D" target="_blank">LinkedIn</a></td>
-                                            <td><img src="https://img.icons8.com/metro/26/000000/facebook-new--v2.png"/></td><td><a class="waves-effect waves-blue btn-flat" href="https://www.facebook.com/mauritzv" target="_blank">Facebook</a></td>
-                                            <td><img src="https://img.icons8.com/metro/26/000000/twitter.png"/></td><td><a class="waves-effect waves-blue btn-flat" href="https://twitter.com/MVervaart" target="_blank">Twitter</a></td>
+                                            <td><img src="https://img.icons8.com/metro/26/000000/linkedin.png" /></td>
+                                            <td><a class="waves-effect waves-blue btn-flat"
+                                                    href="https://www.linkedin.com/in/mjver?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BhTA%2B0CB2TAChXuUfpr8m2A%3D%3D"
+                                                    target="_blank">LinkedIn</a></td>
+                                            <td><img
+                                                    src="https://img.icons8.com/metro/26/000000/facebook-new--v2.png" />
+                                            </td>
+                                            <td><a class="waves-effect waves-blue btn-flat"
+                                                    href="https://www.facebook.com/mauritzv"
+                                                    target="_blank">Facebook</a></td>
+                                            <td><img src="https://img.icons8.com/metro/26/000000/twitter.png" /></td>
+                                            <td><a class="waves-effect waves-blue btn-flat"
+                                                    href="https://twitter.com/MVervaart" target="_blank">Twitter</a>
+                                            </td>
                                         </tr>
                                     </table>
                                 </p>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
@@ -152,7 +176,7 @@
                 </div>
             </div>
             <div class="container-fluid" id="skills">
-            <!-- Progress bars for skill levels -->
+                <!-- Progress bars for skill levels -->
                 <p>
                     <h3 class="text-center">Skills</h3>
                 </p>
@@ -190,19 +214,25 @@
                 <div class="container">
                     <!-- Certificate carousel-->
                     <div class="carousel carousel-slider">
-                        <a class="carousel-item" href="#one!"><img class="responsive-image" src="images/frontEnd.png" alt="FreeCodeCamp Front"/></a>
-                        <a class="carousel-item" href="#two!"><img class="responsive-image" src="images/deplomaMAD.png" alt="Basic MAD"/></a>
-                        <a class="carousel-item" href="#three!"><img class="responsive-image" src="images/deplomaAMD.png" alt="Advanced MAD"/></a>
-                        <a class="carousel-item" href="#four!"><img class="responsive-image" src="images/jsCert.png" alt="Javascript" /></a>
-                        <a class="carousel-item" href="#five!"><img class="responsive-image" src="images/jQueryCert.png" alt="jQuery" /></a>
-                        <a class="carousel-item" href="#six!"><img class="responsive-image" src="images/phpCert.png" alt="PHP" /></a>
+                        <a class="carousel-item" href="#one!"><img class="responsive-image" src="images/frontEnd.png"
+                                alt="FreeCodeCamp Front" /></a>
+                        <a class="carousel-item" href="#two!"><img class="responsive-image" src="images/deplomaMAD.png"
+                                alt="Basic MAD" /></a>
+                        <a class="carousel-item" href="#three!"><img class="responsive-image"
+                                src="images/deplomaAMD.png" alt="Advanced MAD" /></a>
+                        <a class="carousel-item" href="#four!"><img class="responsive-image" src="images/jsCert.png"
+                                alt="Javascript" /></a>
+                        <a class="carousel-item" href="#five!"><img class="responsive-image" src="images/jQueryCert.png"
+                                alt="jQuery" /></a>
+                        <a class="carousel-item" href="#six!"><img class="responsive-image" src="images/phpCert.png"
+                                alt="PHP" /></a>
                     </div>
                     <!-- carousel script -->
                     <script>
-                        $(document).ready(function(){
+                        $(document).ready(function () {
                             $('.carousel').carousel({
                                 fullWidth: true
-                            }),height(700);
+                            }), height(700);
                         })
                     </script>
                 </div>
@@ -252,7 +282,7 @@
 
                     <div class="mySlides">
                         <div class="numbertext">8 / 8</div>
-                        <img src="images/landingpage.png" style="width: 100%; height: 500px"> 
+                        <img src="images/landingpage.png" style="width: 100%; height: 500px">
                     </div>
 
                     <!-- Next and previous buttons -->
@@ -298,8 +328,7 @@
                         </div>
                         <div class="column">
                             <img class="demo cursor" src="images/landingpage.png" style="width:100%; height: 70%"
-                                onclick="currentSlide(8)"
-                                alt="A basic landing page I did for a client's business">
+                                onclick="currentSlide(8)" alt="A basic landing page I did for a client's business">
                         </div>
                     </div>
                 </div>
