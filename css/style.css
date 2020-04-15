@@ -281,7 +281,7 @@ table tr:nth-child(6) td {
     float: left;
   }
 
-  #profile_table {
+  #profile_table tr td {
     width: inherit;
     flex-wrap: wrap;
     flex-direction: row;
