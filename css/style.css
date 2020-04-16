@@ -128,6 +128,7 @@ table tr:nth-child(6) td {
   background-color: #2196f3;
 }
 
+/* Carousel container */
 .carousel {
   height: 700px;
 }
@@ -145,6 +146,7 @@ table tr:nth-child(6) td {
   color: #000;
 }
 
+/* Work Showcase container */
 #showcase {
   display: inline-block;
   padding: 2%;
@@ -157,7 +159,7 @@ table tr:nth-child(6) td {
 }
 
 /* Position the image container (needed to position the left and right arrows) */
-.container {
+#showcase .container {
   position: relative;
 }
 
