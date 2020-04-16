@@ -68,6 +68,7 @@ table tr:nth-child(6) td {
   background-color: #ffffff;
 }
 
+/* Skills Container */
 #skills {
   height: 1100px;
   width: auto;
@@ -128,17 +129,24 @@ table tr:nth-child(6) td {
   background-color: #2196f3;
 }
 
-/* Carousel container */
-.carousel {
-  height: 700px;
-}
-
-.carousel img {
+/* Education Container */
+#education {
   height: 100%;
-  width: 100%;
-  margin-top: 1.25%;
 }
 
+#education img {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 2%;
+}
+
+#education img:hover {
+  opacity: 0.2;
+}
+
+
+/* Contact From */
 #contact {
   padding: 1.5%;
   border-top: 1px solid gray;
@@ -287,5 +295,17 @@ table tr:nth-child(6) td {
     width: inherit;
     flex-wrap: wrap;
     flex-direction: row;
+  }
+
+  #skillBars {
+    width: 100%;
+  }
+
+  #education {
+    width: 100%;
+  }
+
+  .materialboxed {
+    margin-top: 2%;
   }
 }

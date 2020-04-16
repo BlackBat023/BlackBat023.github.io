@@ -185,7 +185,7 @@
                 <p>
                     <h3 class="text-center">Skills</h3>
                 </p>
-                <div class="container">
+                <div class="container" id="skillBars">
                     <p>HTML:5</p>
                     <div class="bar">
                         <div class="skills html" value="95%">95%</div>
@@ -216,53 +216,31 @@
                     </div>
 
                 </div>
-                <div class="container">
-                    <!-- Certificate carousel-->
-                    <div class="carousel slide" data-ride="carousel" id="carousel_indicators">
-                        <ol class="carousel-indicators">
-                            <li data-target="#carousel_indicators" data-slide-to="0" class="active"></li>
-                            <li data-target="#carousel_indicators" data-slide-to="1"></li>
-                            <li data-target="#carousel_indicators" data-slide-to="2"></li>
-                            <li data-target="#carousel_indicators" data-slide-to="3"></li>
-                            <li data-target="#carousel_indicators" data-slide-to="4"></li>
-                            <li data-target="#carousel_indicators" data-slide-to="5"></li>
-                        </ol>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img class="responsive-image" src="images/frontEnd.png" alt="FreeCodeCamp Front" />
-                            </div>
-                            <div class="carousel-item">
-                                <img class="responsive-image" src="images/deplomaMAD.png" alt="Basic MAD" />
-                            </div>
-                            <div class="carousel-item">
-                                <img class="responsive-image" src="images/deplomaAMD.png" alt="Advanced MAD" />
-                            </div>
-                            <div class="carousel-item">
-                                <img class="responsive-image" src="images/jsCert.png" alt="Javascript" />
-                            </div>
-                            <div class="carousel-item">
-                                <img class="responsive-image" src="images/jQueryCert.png" alt="jQuery" />
-                            </div>
-                            <div class="carousel-item">
-                                <img class="responsive-image" src="images/phpCert.png" alt="PHP" />
-                            </div>
+                <div class="container row">
+                    <!-- Material Box -->
+                        <div class="col-lg-6 col-sm-12">
+                            <img class="materialboxed responsive-img" width="580" height="450" src="images/deplomaAMD.png" />
                         </div>
-                        <a href="#carousel_indicators" class="carousel-control-prev" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a href="#carousel_indicators" class="carousel-control-next" role="button" data-slide="next">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <img class="materialboxed responsive-img" width="580" height="450" src="images/deplomaMAD.png" />
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <img class="materialboxed responsive-img" width="580" height="auto" src="images/frontEnd.png" />
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <img class="materialboxed responsive-img" width="580" height="auto" src="images/jQueryCert.png" />
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <img class="materialboxed responsive-img" width="580" height="auto" src="images/jsCert.png" />
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <img class="materialboxed responsive-img" width="580" height="auto" src="images/phpCert.png" />
+                        </div>
                     <!-- carousel script -->
                     <script>
                         $(document).ready(function () {
-                            $('.carousel').carousel({
-                                interval: 2000
-                            });
-                        })
+                            $('.materialboxed').materialbox();
+                        });
                     </script>
                 </div>
             </div>
@@ -370,7 +348,7 @@
                         Please contact me to discuss my request message below:
                     </p>
                     <!-- Create contact.php -->
-                    <form class="contact-form" action="php/contact.php" method="POST">
+                    <form class="contact-form" action="https://formspree.io/mqkdoanp" method="POST">
                         <div class="form-group">
                             <label for="name">Name: </label>
                             <input name="name" class="form-control" type="text" id="name" required />
